@@ -6,4 +6,4 @@ app = Flask(__name__)
 def index():
     return '<h2>Hello world welcome to python flask app</h2>'
 
-app.run(threaded=True, port=5000)
+app.run(threaded=True)
